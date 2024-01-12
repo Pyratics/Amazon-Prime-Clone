@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Prime Video</title>
+    <link rel="icon" href="IMG/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body >
+
+    <!--Navigation Section -->
+<div class="navbar"> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <span id="prime_video" class="navbar-brand mb-0 h1">Prime Video</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Home
+                  </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="#">Movies</a>
+                <a class="dropdown-item" href="#">TV Shows</a>
+              </div>
+            </li>
+            <li class="nav-item active nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Store
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="#">Rent</a>
+                <a class="dropdown-item" href="#">channels</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+                <span id="Live_tv" class="navbar-brand mb-0 p">Live TV</span>
+            </li>
+            <li class="nav-item active nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Romantic</a>
+                <a class="dropdown-item" href="#">Drama</a>
+		<a class="dropdown-item" href="#">Fantacy</a>
+                <a class="dropdown-item" href="#">Anime</a>
+                <a class="dropdown-item" href="#">Comedy</a>
+            </li>
+            <li class="nav-item">
+              <img id="search" src="IMG/Search.png" alt="">
+            </li>
+            <li class="nav-item active">
+                <span id="Live_tv" class="navbar-brand mb-0 p">Try for free</span>
+            </li>
+            <li class="nav-item active nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  EN
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Hindi</a>
+                  <a class="dropdown-item" href="#">Marathi</a>
+                  <a class="dropdown-item" href="#">kanada</a>
+                  <a class="dropdown-item" href="#">Tamil</a>
+                  <a class="dropdown-item" href="#">Telgu</a>
+                  <a class="dropdown-item" href="#">Bangladesh</a>
+              </li>
+                <li class="nav-item">
+                    <img id="profile" src="IMG/profile.png" alt="">
+                </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    
+    <!--Home Page-->
+    <div class="home_page">
+        <img style="width: 100%;" src="IMG/homepage.jpg" class="img-fluid" alt="Responsive image">
+        <p id="home_text" class="font-weight-normal">Welcome to Prime Video</p>
+        <p id="home_ttext" class="font-weight-normal">Watch the latest movies, TV shows, and award-winning </p>
+        <p id="home_tttext" class="font-weight-normal">Amazon Originals</p>
+        <button id="sign_in_button" type="button" class="btn btn-primary btn-lg">Sign in to join prime</button>
+    </div>
+
+    <!--2nd Home page-->
+    <div class="home_page">
+        <img style="width: 100%;" src="IMG/2ndhomepage.jpg" class="img-fluid" alt="Responsive image">
+        <p id="movie_text" class="font-weight-normal">Movie rentals on Prime Video</p>
+        <p id="movie_two_text" class="font-weight-normal">Early Access to new movies, before digital subscription </p>
+        <button id="rent_button" type="button" class="btn btn-primary btn-lg">Rent Now </button>
+    </div>
+    <hr>
+    <!-- Channel Section -->
+    <div class="channel">
+      
+        <img id="ch1" src="IMG/erosnow.png" class="rounded float-right" alt="ch1">
+        <img id="ch2" src="IMG/discovery.png" class="rounded float-right" alt="ch2">
+        <img id="ch3" src="IMG/liosgate play.png" class="rounded float-right" alt="ch3">
+  
+        
+    </div>
+    <div class="channel">
+        <img id="ch4" src="IMG/vr.png" class="rounded float-right" alt="ch4">
+        <img id="ch5" src="IMG/hoichoi.png" class="rounded float-right" alt="ch5">
+        <img id="ch6" src="IMG/liosgate play.png" class="rounded float-right" alt="ch6">
+      </div>
+
+      <div class="channel">
+        <img id="ch7" src="IMG/mubi.png" class="rounded float-right" alt="ch7">
+        <img id="ch8" src="IMG/docubay.png" class="rounded float-right" alt="ch8">
+        <img id="ch9" src="IMG/amc.png" class="rounded float-right" alt="ch9">
+      </div>
+
+      <div class="channel">
+        <img id="ch10" src="IMG/curiosity.png" class="rounded float-right" alt="ch10">
+        <img id="ch11" src="IMG/stingry.png" class="rounded float-right" alt="ch11">
+        <img id="ch12" src="IMG/iwonder.png" class="rounded float-right" alt="ch12">
+        
+        <p id="channel_text" class="font-weight-normal">Your favorite channels all in one place</p>
+        <p id="channel_two_text" class="font-weight-normal">With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice</p>
+        
+        <img style="width: 100%; height: 90%;" src="IMG/whitebg.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+
+      <!--Firestick Section -->
+      <div >
+        <img style="width: 100%;" src="IMG/firestick.jpg" class="img-fluid" alt="Responsive image">
+        <p id="fire_text" class="font-weight-normal">Even better with Fire TV Stick</p>
+        <p id="fire_two_text" class="font-weight-normal">The biggest movies and TV shows are always better on a big screen. Simply plug in your Amazon Fire TV Stick and stream on any HDTV. Press the voice button on the remote and say the name of the title you want to watch to find it in seconds.</p>
+        <button id="get_button" type="button" class="btn btn-primary btn-lg">Get Started</button>
+      </div>
+
+      <!--children section-->
+      <div>
+        <img style="width: 100%;" src="IMG/child.jpg" class="img-fluid" alt="Responsive image">
+        <p id="family_text" class="font-weight-normal">Family Friendly</p>
+        <p id="family_two_text" class="font-weight-normal">With easy to use Parental Controls and a dedicated kids page, enjoy secure, ad-free kids entertainment. Kids can enjoy popular TV shows like Peppa Pig, Powerpuff Girls, and Chhota Bheem.</p>
+        <button id="get_two_button" type="button" class="btn btn-primary btn-lg">Get Started</button>
+      </div>
+
+      <!--Footer Section -->
+      <div class="card text-center" style="background-color: rgb(71, 70, 70);">
+        <div class="card-header">
+        <div class="card-body">
+          <img id="prime_videos" src="IMG/prime-video.png" class="rounded mx-auto d-block" alt="...">
+          <p class="card-text">Terms_and_Privacy_Notice Send_us_feedback  Help</p>
+          <p class="card-ttext">© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+        </div>
+        </div>
+
+
+</body>
+</html>

@@ -1,0 +1,379 @@
+/*Navigation Section*/
+#prime_video{
+    padding-left: 50pt;
+}
+
+#navbarDropdown{
+    padding-left: 30pt;
+}
+
+#Live_tv{
+    padding-left: 30pt;
+}
+
+#search{
+    height: 40px;
+    width: 40px;
+   margin-left: 70pt;
+}
+.navbar{
+    width: 100%;
+    color: black;
+    background-color: black;
+}
+
+#navbar {
+    color: black;
+}
+li:hover{
+    background-color: rgb(43, 38, 33);
+}
+
+#profile{
+    height: 40px;
+    width: 40px;
+    margin-left: 10pt;
+}
+
+/*Home Page*/
+.home_page{
+    color:  white;
+}
+
+#home_text{
+    font-size: 3rem;
+    position: absolute;
+    top: 100pt;
+    left: 40pt;
+}
+
+#home_ttext{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 160pt;
+    left: 40pt;
+    transform: translate(0%, -50%);
+}
+
+#home_tttext{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 180pt;
+    left: 40pt;
+    transform: translate(0%, -50%);
+}
+
+#sign_in_button{
+    position: absolute;
+    top: 215pt;
+    left: 40pt;
+    width:180pt;
+    transform: translate(0%, -50%);
+    
+    cursor: pointer;
+}
+
+/*2nd Home Page*/
+
+#movie_text{
+    font-size: 3rem;
+    position: absolute;
+    top: 550pt;
+    right: 90pt;
+   width: 500px;
+}
+#movie_two_text{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 670pt;
+    right: 30pt;
+    transform: translate(0%, -50%);
+}
+
+#rent_button{
+    position: absolute;
+    top: 720pt;
+    right: 280pt;
+    transform: translate(0%, -50%);
+    cursor: pointer;
+    width:180pt;
+}
+
+/*channel Section*/
+.channel{
+   background-color: white;
+   color: white;
+}
+
+.channel #ch1{
+    height: 150px;
+    width: 170px;
+    margin-right: 30px;
+    padding: 1px;
+    border-radius: 0px;
+}
+#ch1:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.channel #ch2{
+    height: 150px;
+    width: 170px;
+   
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+}
+#ch2:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.channel #ch3{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+}
+
+#ch3:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.channel #ch4{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    top: 1290px;
+    right: 15px;
+}
+#ch4:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.channel #ch5{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    top: 1290px;
+    right: 200px;
+}
+
+#ch5:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.channel #ch6{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    top: 1290px;
+    right: 380px;
+}
+
+#ch6:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+
+.channel #ch7{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    top: 1460px;
+    right: 15px;
+}
+#ch7:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.channel #ch8{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    top: 1460px;
+    right: 200px;
+}
+
+#ch8:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.channel #ch9{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    top: 1460px;
+    right: 380px;
+}
+
+#ch9:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+
+.channel #ch10{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    top: 1630px;
+    right: 15px;
+}
+#ch10:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.channel #ch11{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    top: 1630px;
+    right: 200px;
+}
+
+#ch11:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+.channel #ch12{
+    height: 150px;
+    width: 170px;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    top: 1630px;
+    right: 380px;
+}
+
+#ch12:hover{
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+body .channel{
+    background-color: white;
+}
+
+#channel_text{
+    font-size: 3rem;
+    position: absolute;
+    top: 860pt;
+    left: 50pt;
+   width: 540px;
+   color: black;
+}
+
+#channel_two_text{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1020pt;
+    left: 50pt;
+    width: 480px;
+    transform: translate(0%, -50%);
+    color: black;
+}
+
+/*Firestick Section*/
+
+#fire_text{
+    font-size: 3rem;
+    position: absolute;
+    top: 1360pt;
+    right: 50pt;
+   width: 540px;
+   color: white;
+}
+
+#fire_two_text{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1540pt;
+    right: 50pt;
+    width: 540px;
+    transform: translate(0%, -50%);
+    color: white;
+}
+
+#get_button{
+    position: absolute;
+    top: 1650pt;
+    right: 275pt;
+    transform: translate(0%, -50%);
+    cursor: pointer;
+    width:180pt;
+}
+
+/*Family Section*/
+
+#family_text{
+    font-size: 3rem;
+    position: absolute;
+    top: 1750pt;
+   left: 50pt;
+   color: white;
+}
+
+#family_two_text{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1870pt;
+    left: 50pt;
+    width: 560px;
+    transform: translate(0%, -50%);
+    color: white;
+}
+
+#get_two_button{
+    position: absolute;
+    top: 1970pt;
+    left: 50pt;
+    transform: translate(0%, -50%);
+    cursor: pointer;
+    width:180pt;
+}
+
+/*Footer Section*/
+
+#prime_videos{
+    width: 10%;
+   align-content: center;
+}
+
+.card-text{
+    word-spacing: 20px; 
+    color: blue;
+}
+
